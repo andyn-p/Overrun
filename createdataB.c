@@ -2,13 +2,15 @@
 /* createdataB.c                                                      */
 /* by Andy Nguyen and Icey Ai                                         */
 /*--------------------------------------------------------------------*/
-
-
-/*--------------------------------------------------------------------*/
-/* creates a file named "dataB" with the goal of performing a buffer  */
-/*    overrun attack on the grader.c program to give the user a 'B'   */
-/*--------------------------------------------------------------------*/
 #include <stdio.h>
+
+/*--------------------------------------------------------------------*/
+/* creates and writes to a file named "dataB"                         */
+/* does not take inputs                                               */
+/* writes to file "dataB" using fprintf and fwrite                    */
+/* "dataB" is used to perform a buffer overrun on the grader.c file   */
+/*      to print out "B" as the grade.                                */
+/*--------------------------------------------------------------------*/
 
 int main(void) {
 
